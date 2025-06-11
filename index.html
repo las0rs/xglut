@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>XGLUT BOT</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <header><h1>🤖 Willkommen beim XGLUT BOT</h1></header>
+  <main>
+    <p>Wähle deinen Spezial-Assistenten:</p>
+    <div class="button-grid">
+      <button onclick="openModule('document')">📄 Dokumenten-KI</button>
+      <button onclick="openModule('translate')">🌐 Translate-KI</button>
+      <button onclick="openModule('project')">📁 Projektmanager</button>
+      <button onclick="openModule('lyric')">🎤 Lyric Builder</button>
+      <button onclick="openModule('blogger')">📝 Blogger</button>
+      <button onclick="openModule('music')">🎵 Musik</button>
+      <button onclick="openModule('image')">🎨 Bildgenerator</button>
+      <button onclick="openModule('admin')">🔐 Admin</button>
+    </div>
+    <section id="module-container"></section>
+  </main>
+</body>
+</html>
